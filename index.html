@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 1984 Adventure</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(90, 11, 11); /* Changed background color to red */
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    .paragraph {
+        font-size: 35px;
+
+        margin-bottom: 50px;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .link {
+        font-size: 40px;
+        margin: 0 75px;
+        text-decoration: none;
+        color: white; /* Changed link color to white */
+        padding: 10px 20px; /* Added padding to make it look like a button */
+        background-color: #333333; /* Added background color to make it look like a button */
+        border: none; /* Removed border */
+        border-radius: 10px; /* Added border-radius to make it look like a button */
+        cursor: pointer; /* Added cursor pointer to indicate it's clickable */
+        transition: background-color 0.3s; /* Added transition for hover effect */
+    }
+    
+    .link:hover {
+        background-color: #555; /* Changed background color on hover */
+    }
+</style>
+</head>
+<body>
+    <div class="content">
+        <img height="250px" width="250px" src="https://images.fineartamerica.com/images/artworkimages/medium/3/must-read-book-covers-1984-big-brother-eye-thomas-p-watson-transparent.png" alt="Ominous Eye" />
+        <b>
+            <p class="paragraph" style="margin-left: 150px; margin-right: 150px;">
+                You are walking downtown, it is dead silent. The year is 1984 and you have just finished work and are heading home for the day. The air is thick and dirty, and you feel as though you are always being watched. You had just visited your favorite bookstore and had secretly purchased a diary, which is illegal. Out of the corner of your eye you spot a hidden figure in an alleyway as you walk by. You pause and consider who it might be but don't know what to do. You must make a decision.
+            </p>
+        </b>
+        <div class="links">
+            <button class="link" onclick="window.location.href='godownalleyway.html'">Go Down Alleyway</button> <!-- Changed link to button -->
+            <button class="link" onclick="window.location.href='keepwalking.html'">Keep Walking</button> <!-- Changed link to button -->
+        </div>
+    </div>
+</body>
+</html>
